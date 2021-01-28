@@ -1,0 +1,103 @@
+---
+title: 'Scandinavian PhD Seminar: Spring 2021'
+subtitle: "Seminar Series"
+author:
+  - name: "Alexander Fischer"
+    url: https://pure.au.dk/portal/en/persons/alexander-fischer(ce18cc8e-3a48-4e1a-8725-00d205d6b478).html
+    affiliation: Aarhus University
+    affiliation_url: https://bss.au.dk/en/
+  - name: "René Karadakic"
+    url: https://renekaradakic.github.io
+    affiliation: Norwegian School of Economics
+    affiliation_url: https://www.nhh.no/en
+output: 
+  distill::distill_article:
+    highlight: tango
+    theme: simple
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+---
+
+
+```{r global options, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning=F, message=F, cache=F)
+```
+
+
+
+# General Information
+Seminars are held bi-weekly on Wednesdays from 14:15 - 15:15. Participants on the seminar mailing list will receive a zoom link on Wednesday morning, which they can then use to attend the seminar. Please only share the link with trusted colleagues and not on social media. Questions can usually be asked during the seminar by unmuting yourself.
+
+# Seminar Guests Overview
+```{r ,eval=T, echo=F}
+library(data.table)
+library(kableExtra)
+date<-c('17/02', '03/03','17/03', '31/03', '14/04', '28/04', '12/05', '26/05')
+name<-c('Matthew Collins', 'Alexander Fischer','Alessandro Pizzigolotto', 'Jonas Lundstedt',  'René Karadakic', 'Johan Holmberg', 'Tyra Merker', 'Christian Vedel')
+uni<- c('Lund University', 'Aarhus University','Norwegian School of Economics', 'Lund University', 'Norwegian School of Economics', 'Umeå University', 'University of Oslo', 'University of Southern Denmark')
+field<-c('Education/Development', 'Education','Political Economy', 'Education', 'Labour/Family', 'Labour/Macro', 'Applied Micro', 'Applied Micro' )
+ptable<-data.table(Date=date, Name=name, Affiliation=uni, Field=field)
+
+kable(ptable, format.args = list(big.mark = ",")) %>%
+  kable_material(bootstrap_options='responsive', full_width = F)->sum_table
+sum_table
+```
+
+# Seminar Content
+### Matthew Collins, Lund University
+
++ **Date:** February 8, 2021 
++ **Title:** Sibling Gender, Inheritance Norms and Human Capital Accumulation in Sub-Saharan Africa 
++ **Topic:** Education, Development Economics  
++ **Abstract:** I study how sibling gender, a central part of the childhood experience, affects the educational outcomes of children across 36 Sub-Saharan African countries. Using data from the Demographic and Health Survey, I estimate the causal effect of having a next-born brother relative to a sister and how it varies across ethnic groups according to inheritance norms. Girls experience a small negative effect of having a brother. In both patrilineal and matrilineal societies, male property is inherited by other male heirs, but specifically who inherits the property varies by kinship, with sons directly inheriting their father's property in most patrilineal societies, while in matrilineal societies, property is generally transferred to the son (or sons) of a man's sister. Boys who can directly inherit their father's property experience no effect of sibling gender, whereas boys in other groups experience a large and significant negative effect of having a brother. I provide evidence that laws guaranteeing the inheritance of property by one's children diminishes this effect. These findings suggest that parents substitute between bequeathing land to their children and investing in their education, underlining the importance of culture in determining the outcomes of children. furthermore, I provide evidence that family size effects may contribute to these findings and that sibling gender effects can be mitigated by reducing the cost of schooling.
+
+### Alexander Fischer, Aarhus University
+
++ **Date:** March 3, 2021  
++ **Title:**  Rank Effects and Skill Formation
++ **Topic:** Education Economics  
++ **Abstract:** Why does a higher class rank in school translate into improved achievement throughout adolescence? Leveraging Danish administrative data and a population-wide survey, this paper shows that a student’s class rank at age 8 improves test scores throughout adolescence up to high-school. The improvements in academic achievement are accompanied by increased non-cognitive skills and higher academic self-perception. Students with higher class rank further report better relationships to their teachers, but no improvements in well-being.
+
+### Alessandro Pizzigolotto, Norwegian School of Economics
+
++ **Date:** March 17, 2021  
++ **Title:**  Credit Shocks and Populism  
++ **Topic:** Applied Microeconomics, Political Economy  
++ **Abstract:** Do banking crises fuel populism? While scholars identified the economic causes of populism in trade, unemployment, or migration, the evidence on the role of banks is scant. In this paper we aim to fill this gap. We investigate whether lending cuts by banks increase the electoral support for populist parties. To this end, we exploit the impact of an exogenous lending cut by a large German bank in 2007-08 on the voting behaviour of individuals set in counties exposed to the cut. We combine this data with SOEP data on individual voting intentions for populist parties. Based on this strategy, our paper shows new empirical evidence on the causal effect of banking crises on individuals’ political attitudes.
+
+### Jonas Lundstedt, Lund University
+
++ **Date:** March 31, 2021  
++ **Title:** The Demand for Signalling
++ **Topic:** Education Economics  
++ **Abstract:** In this paper, I study how students in higher education react to an opportunity to manipulate from which university they will receive a diploma upon finishing their bachelors degree. On January 1st 2010 two Swedish higher educational institutions: Kalmar University College and Växjö University merged and became Linnaeus University. Using data on the population of Swedish university students, I exploit that this merger provided some students with the opportunity to change their signal (the diploma) while keeping their human capital (the education) constant by adjusting their graduation date. Exploiting a difference-in-difference research design I find that students try to manipulate their signal by adjusting their effort. More precisely, I find that students who need to speed up their graduation in order to get a diploma from their preferred university on average enroll in, and manage to pass, more courses. Furthermore, average yearly labor income while studying drops by 17 % for these students, indicating a shift in attention away from their work and towards their studies.
+
+
+### René Karadakic, Norwegian School of Economics
+
++ **Date:** April 14, 2021  
++ **Title:** Mommy is Stuck in Traffic? Parenthood and the Gender Gap in Commuting  
++ **Topic:** Labour, Family Economics  
++ **Abstract:** Childbirth increases the opportunity cost of commuting and makes it difficult for parents to work far away from home. As childcare responsibilities tend to fall disproportionately on women, the effect of childbirth on commuting may be much more pronounced among mothers. Using Norwegian register data, we show that the commuting pattern of men and women diverge after childbirth and that the differences persist for many years. We show that this divergence in commuting exposes mothers to more concentrated labour markets with fewer job opportunities. These findings help explain a significant amount of the child penalty documented in the prior literature, and have important implications for the design of policies seeking to address the remaining gender wage gap.
+
+### Johan Holmberg, Umeå University
+
++ **Date:** April 28, 2021  
++ **Title:** Earning Dynamics in Sweden: The Recent Evolution of Permanent Inequality and Earnings Volatility
++ **Topic:** Labour, Macroeconomics Economics  
++ **Abstract:** In this paper, we present a model of earnings dynamics that includes transitions in and out of employment and business cycle fluctuations. The model is estimated using the method of indirect inference and a mix of Swedish register-, survey- and macro data. We find that the transitions from unemployment to employment are more sensitive to business cycle fluctuations than the probabilities of remaining in employment. By simulating data from the model, we find that the business cycle has a relatively small impact on earnings inequality in Sweden and that female labor market outcomes are less sensitive to business cycle fluctuations. Finally, we find that economic crises have a more severe impact on less-educated and young workers. 
+
+### Tyra Merker, University of Oslo
+
++ **Date:** May 12, 2021  
++ **Title:**  Following soon
++ **Topic:** Applied Microeconomics  
++ **Abstract:** Following soon
+
+### Christian Vedel, University of Southern Denmark
+
++ **Date:** May 26, 2021  
++ **Title:**  The Good, the Bad and the Natural Endowments of Infrastructure: Long-run Evidence from a Natural Disaster
++ **Topic:** Applied Microeconomics  
++ **Abstract:** Following soon
