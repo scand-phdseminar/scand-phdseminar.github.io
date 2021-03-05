@@ -33,10 +33,10 @@ Seminars are held bi-weekly on Wednesdays from 14:15 - 15:15. Participants on th
 ```{r ,eval=T, echo=F}
 library(data.table)
 library(kableExtra)
-date<-c('17/02', '03/03','17/03', '31/03', '14/04', '28/04', '12/05', '26/05')
-name<-c('Matthew Collins', 'Alexander Fischer','Alessandro Pizzigolotto', 'Jonas Lundstedt',  'Demid Getik', 'Johan Holmberg', 'Tyra Merker', 'Christian Vedel')
-uni<- c('Lund University', 'Aarhus University','Norwegian School of Economics', 'Lund University', 'Lund University', 'Umeå University', 'University of Oslo', 'University of Southern Denmark')
-field<-c('Education/Development', 'Education','Political Economy', 'Education', 'Labour/Family', 'Labour/Macro', 'Applied Micro', 'Applied Micro' )
+date<-c('17/02', '03/03','17/03', '31/03', '14/04', '28/04', '12/05', '26/05', '09/06')
+name<-c('Matthew Collins', 'Alexander Fischer','Alessandro Pizzigolotto', 'Jonas Lundstedt',  'Demid Getik', 'Johan Holmberg', 'Tyra Merker', 'Christian Vedel', 'René Karadakic')
+uni<- c('Lund University', 'Aarhus University','Norwegian School of Economics', 'Lund University', 'Lund University', 'Umeå University', 'University of Oslo', 'University of Southern Denmark', 'Norwegian School of Economics')
+field<-c('Education/Development', 'Education','Political Economy', 'Education', 'Labour', 'Labour/Macro', 'Applied Micro', 'Applied Micro', 'Labour/Family')
 ptable<-data.table(Date=date, Name=name, Affiliation=uni, Field=field)
 
 kable(ptable, format.args = list(big.mark = ",")) %>%
@@ -91,9 +91,9 @@ sum_table
 ### Tyra Merker, University of Oslo
 
 + **Date:** May 12, 2021  
-+ **Title:**  Following soon
++ **Title:**  The Effect of Sin Taxes - The Case of Sugar Taxes in Norway  
 + **Topic:** Applied Microeconomics  
-+ **Abstract:** Following soon
++ **Abstract:** This paper examines the effects of a large 2018 increase in sugar taxes on prices and consumption in Norway. I use a novel data set of all individual itemized receipts, covering 99.9 percent of the Norwegian grocery market. It allows me to study effects and substitution patterns of sin taxes at greater detail than previous literature, overcoming its measurement and aggregation problems. Using an event study design with a control group, I limit the likelihood that unobserved incidents bias my estimates. Preliminary analyses show the puzzling result that, while there is a positive effect of the taxes on prices, a significant demand response is lacking. I will study two potential mechanisms that can explain this puzzle: limited demand leakage and intra-category substitution. I will formalize the latter mechanism in a theoretical model. The mechanisms have clear policy implications for the level and design of taxes.
 
 ### Christian Vedel, University of Southern Denmark
 
@@ -101,3 +101,11 @@ sum_table
 + **Title:**  The Good, the Bad and the Natural Endowments of Infrastructure: Long-run Evidence from a Natural Disaster
 + **Topic:** Applied Microeconomics  
 + **Abstract:** Following soon
+
+### René Karadakic, Norwegian School of Economics
+
++ **Date:** June 9, 2021  
++ **Title:**  Mommy is Stuck in Traffic? Parenthood and the Gender Gap in Commuting
++ **Topic:** Labour, Family, Applied Microeconomics  
++ **Abstract:** Childbirth increases the opportunity cost of commuting and makes it difficult for parents to work far away from home. As childcare responsibilities tend to fall disproportionately on women, the effect of childbirth on commuting may be much more pronounced
+among mothers. Using Norwegian register data, we show that the commuting pattern of men and women diverge after childbirth and that the differences persist for many years. We show that this divergence in commuting exposes mothers to more concentrated labor markets with fewer job opportunities. These findings help explain a significant amount of the child penalty documented in the prior literature, and have important implications for the design of policies seeking to address the remaining gender wage gap.
