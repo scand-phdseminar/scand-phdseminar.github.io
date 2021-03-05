@@ -34,8 +34,8 @@ Seminars are held bi-weekly on Wednesdays from 14:15 - 15:15. Participants on th
 library(data.table)
 library(kableExtra)
 date<-c('17/02', '03/03','17/03', '31/03', '14/04', '28/04', '12/05', '26/05')
-name<-c('Matthew Collins', 'Alexander Fischer','Alessandro Pizzigolotto', 'Jonas Lundstedt',  'René Karadakic', 'Johan Holmberg', 'Tyra Merker', 'Christian Vedel')
-uni<- c('Lund University', 'Aarhus University','Norwegian School of Economics', 'Lund University', 'Norwegian School of Economics', 'Umeå University', 'University of Oslo', 'University of Southern Denmark')
+name<-c('Matthew Collins', 'Alexander Fischer','Alessandro Pizzigolotto', 'Jonas Lundstedt',  'Demid Getik', 'Johan Holmberg', 'Tyra Merker', 'Christian Vedel')
+uni<- c('Lund University', 'Aarhus University','Norwegian School of Economics', 'Lund University', 'Lund University', 'Umeå University', 'University of Oslo', 'University of Southern Denmark')
 field<-c('Education/Development', 'Education','Political Economy', 'Education', 'Labour/Family', 'Labour/Macro', 'Applied Micro', 'Applied Micro' )
 ptable<-data.table(Date=date, Name=name, Affiliation=uni, Field=field)
 
@@ -74,12 +74,12 @@ sum_table
 + **Abstract:** In this paper, I study how students in higher education react to an opportunity to manipulate from which university they will receive a diploma upon finishing their bachelors degree. On January 1st 2010 two Swedish higher educational institutions: Kalmar University College and Växjö University merged and became Linnaeus University. Using data on the population of Swedish university students, I exploit that this merger provided some students with the opportunity to change their signal (the diploma) while keeping their human capital (the education) constant by adjusting their graduation date. Exploiting a difference-in-difference research design I find that students try to manipulate their signal by adjusting their effort. More precisely, I find that students who need to speed up their graduation in order to get a diploma from their preferred university on average enroll in, and manage to pass, more courses. Furthermore, average yearly labor income while studying drops by 17 % for these students, indicating a shift in attention away from their work and towards their studies.
 
 
-### René Karadakic, Norwegian School of Economics
+### Demid Getik
 
 + **Date:** April 14, 2021  
-+ **Title:** Mommy is Stuck in Traffic? Parenthood and the Gender Gap in Commuting  
-+ **Topic:** Labour, Family Economics  
-+ **Abstract:** Childbirth increases the opportunity cost of commuting and makes it difficult for parents to work far away from home. As childcare responsibilities tend to fall disproportionately on women, the effect of childbirth on commuting may be much more pronounced among mothers. Using Norwegian register data, we show that the commuting pattern of men and women diverge after childbirth and that the differences persist for many years. We show that this divergence in commuting exposes mothers to more concentrated labour markets with fewer job opportunities. These findings help explain a significant amount of the child penalty documented in the prior literature, and have important implications for the design of policies seeking to address the remaining gender wage gap.
++ **Title:** Affirmative Action Support and the Parity Motive  
++ **Topic:** Labour Economics, Discrimination  
++ **Abstract:** We study the drivers of preference for affirmative action (AA) in two pre-registered online experiments (N=1,701). Participants act as employers who hire from a pool of workers using either the standard rule, hiring the two most productive workers, or the AA rule, where one of the two hired workers must be female. We implement three treatments to disentangle the preference for AA stemming from i) presumed gender difference in productivity, ii) presumed gender difference in institutional barriers, or iii) other more innate ideological  motives. First, we exogenously vary employers' beliefs by providing information about no gender gap in productivity. Second, we communicate the employers' choice to a later group of workers, thus reversing the working-hiring order and changing the institutional barriers faced by the female workers. Finally, we remove the employers' incentive, thus potentially making AA choice cheap talk. We do not find significant differences in hiring rule choice across treatments, despite the information and reverse-order treatments significantly altering the beliefs about female and male productivity. Our results suggest that AA choice reflects a more innate preference for advancing female workers that surpasses bridging the perceived disparity or other financial motives.
 
 ### Johan Holmberg, Umeå University
 
